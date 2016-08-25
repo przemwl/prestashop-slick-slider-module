@@ -1,0 +1,59 @@
+.product-slider {
+  min-height: 470px;
+  margin-top: 7px;
+  background: url("../img/bottom-slider/blebox-slider-bg.png") no-repeat center; }
+  .product-slider .container-small {
+    max-width: 900px;
+    margin: 0 auto; }
+    .product-slider .container-small .slick-dots {
+      top: 51px;
+      left: -397px;
+      height: 30px; }
+      .product-slider .container-small .slick-dots:before {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 92px;
+        left: 50%;
+        background: #179cd7;
+        position: absolute;
+        margin-left: -184px;
+        margin-top: 14px; }
+      .product-slider .container-small .slick-dots li button:before {
+        color: white;
+        font-size: 11px; }
+      .product-slider .container-small .slick-dots li.slick-active button:before {
+        color: #ff0163; }
+    .product-slider .container-small .slick-dotted.slick-slider {
+      margin-bottom: 0; }
+    .product-slider .container-small .content-container {
+      max-width: 459px;
+      width: 100%;
+      float: left;
+      margin-top: 19px;
+      margin-left: 20px; }
+      .product-slider .container-small .content-container.slider-image {
+        max-width: 390px;
+        float: right; }
+      .product-slider .container-small .content-container img {
+        margin: 69px auto; }
+      .product-slider .container-small .content-container .slogan {
+        color: white;
+        margin-top: 70px;
+        text-transform: inherit;
+        font-size: 52px;
+        letter-spacing: 2px;
+        line-height: 65px;
+        font-weight: 300; }
+      .product-slider .container-small .content-container .desc-container {
+        max-width: 421px;
+        margin-top: 18px; }
+        .product-slider .container-small .content-container .desc-container p {
+          line-height: 20px; }
+    .product-slider .container-small .button-container {
+      position: absolute;
+      bottom: 18px; }
+      .product-slider .container-small .button-container .button {
+        margin: 35px 20px; }
+
+/*# sourceMappingURL=product-slider-section.css.map */

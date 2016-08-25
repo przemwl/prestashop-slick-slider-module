@@ -1,0 +1,95 @@
+.product-slider  {
+    min-height: 470px;
+    margin-top: 7px;
+    background: url('../img/bottom-slider/blebox-slider-bg.png') no-repeat center;
+    
+    .container-small {  
+        max-width: 900px;
+        margin: 0 auto;
+        
+        .slick-dots {
+            top: 51px;
+            left: -397px;
+            height: 30px;
+            
+            &:before {
+                content: "";
+                display: block;
+                height: 1px;
+                width: 92px;
+                left: 50%;
+                background: #179cd7;
+                position: absolute;
+                margin-left: -184px;
+                margin-top: 14px;
+
+            }
+            
+            li {
+                button {
+                    &:before {
+                        color: white;
+                        font-size: 11px;
+                    }
+                }
+                
+                &.slick-active {
+                    button {
+                        &:before {
+                            color: #ff0163;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .slick-dotted.slick-slider {
+                margin-bottom: 0;
+        }
+        
+        .content-container {
+            max-width: 459px;
+            width: 100%;
+            float: left;
+            margin-top: 19px;
+            margin-left: 20px;
+            
+            &.slider-image {
+                max-width: 390px;
+                float: right;
+            }
+            
+            img {
+                margin: 69px auto;
+            }
+            
+            .slogan {
+                color: white;
+                margin-top: 70px;
+                text-transform: inherit;
+                font-size: 52px;
+                letter-spacing: 2px;
+                line-height: 65px;
+                font-weight: 300;
+            }
+
+            .desc-container {
+                max-width: 421px;
+                margin-top: 18px;
+                
+                p {
+                    line-height: 20px; 
+                }
+            }  
+        }
+        
+        .button-container {
+            position: absolute;
+            bottom: 18px;
+                
+            .button {
+                margin: 35px 20px;
+            }
+        }
+    }
+}

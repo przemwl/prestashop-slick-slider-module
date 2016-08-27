@@ -53,6 +53,7 @@ class SlickSliderModule extends Module
     public function hookHeader() 
     {
 	$this->context->controller->addJS(__DIR__ . 'inc/js/slick.min.js');
+        $this->context->controller->addJS(__DIR__ . 'inc/js/main.js');
         $this->context->controller->addCSS(__DIR__ . 'inc/styles/css/slick.css');
         $this->context->controller->addCSS(__DIR__ . 'inc/styles/css/slick-theme.css');
         $this->context->controller->addCSS(__DIR__ . 'inc/styles/css/product-slider-section.css');

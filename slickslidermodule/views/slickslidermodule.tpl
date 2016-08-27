@@ -1,5 +1,5 @@
 {if !empty($SlickSliderModuleData)}
-    <section class="product-slider waypoint"> 
+    <section class="product-slider"> 
         <div class="container-small">
             <div class="row">
                 <div class="bullets-container"></div>
